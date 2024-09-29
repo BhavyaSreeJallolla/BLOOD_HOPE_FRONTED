@@ -1,48 +1,53 @@
 /* BloodBanks.module.css */
 
-.blood-banks-container {
+/* Updated styles for Blood Banks */
+.bloodBanksContainer {
   padding: 20px;
-  background-color: #f5f5f5; /* Light gray background */
+  background-color: lightgray;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(185, 19, 19, 0.1);
   max-width: 600px;
-  margin: 0 auto; /* Center container */
+  margin: 0 auto;
 }
 
-table {
+h2 {
+  text-align: center;
+  color: #e01d1d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  margin-left: auto; /* Centering the table */
-  margin-right: auto; /* Centering the table */
+  border-collapse: collapse; /* Add this for consistent table styling */
 }
 
 thead th {
-  background-color: #e06f12; /* Header background color */
+  background-color: #e06f12;
   padding: 10px;
-  text-align: center; /* Center text within header cells */
+  text-align: left;
   font-weight: bold;
-  border-bottom: 2px solid #74152c; /* Bottom border color */
+  border-bottom: 2px solid #74152c;
 }
 
 tbody tr {
-  border-bottom: 1px solid #0323b3; /* Row border color */
+  border-bottom: 1px solid #0323b3;
 }
 
 tbody td {
   padding: 10px;
-  text-align: center; /* Center text within cells */
+  text-align: left;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #2fe47b98; /* Light green for even rows */
+  background-color: #2fe47b98; /* Light green color for even rows */
 }
 
 tbody tr:hover {
-  background-color: #a10606; /* Dark red on hover */
+  background-color: #a10606; /* Darker red color for hover effect */
 }
 
 tbody td:first-child {
   font-weight: bold;
-  color: #2c3e50; /* Dark text for first column */
+  color: #2c3e50; /* Darker color for the first cell */
 }
