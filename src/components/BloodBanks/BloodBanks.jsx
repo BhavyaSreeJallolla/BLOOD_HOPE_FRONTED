@@ -20,6 +20,13 @@ const BloodBanks = () => {
     fetchBloodBanks();
   }, []);
 
+  // Sample data if API fetch fails
+  const sampleBloodBanks = [
+    { id: 1, name: 'City Blood Bank', location: 'Downtown', contact: '555-123-4567' },
+    { id: 2, name: 'State Blood Bank', location: 'Uptown', contact: '555-987-6543' },
+    { id: 3, name: 'Community Blood Bank', location: 'Suburbia', contact: '555-456-7890' },
+  ];
+
   return (
     <div className="blood-banks-container">
       <h2>Blood Banks</h2>
@@ -33,7 +40,7 @@ const BloodBanks = () => {
           </tr>
         </thead>
         <tbody>
-          {bloodBanksData.map(bank => (
+          {(bloodBanksData.length ? bloodBanksData : sampleBloodBanks).map(bank => (
             <tr key={bank.id}>
               <td>{bank.name}</td>
               <td>{bank.location}</td>

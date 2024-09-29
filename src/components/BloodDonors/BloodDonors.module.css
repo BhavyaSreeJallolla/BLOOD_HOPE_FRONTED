@@ -1,20 +1,51 @@
-.blood-dors-container {
-    padding: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
+.blood-donors-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for better visibility */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Limit the width */
+  margin: 20px auto; /* Centering the container */
+}
+
+h2 {
+  text-align: center;
+  color: #e01d1d; /* Header color */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #e06f12; /* Header background color */
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #74152c; /* Bottom border for the header */
+}
+
+tbody tr {
+  border-bottom: 1px solid #ccc; /* Light bottom border for rows */
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0f7fa; /* Light blue for even rows */
+}
+
+tbody tr:hover {
+  background-color: #ffe0e0; /* Light red on hover for better visibility */
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  color: #2c3e50; /* Darker color for the first column */
+}
