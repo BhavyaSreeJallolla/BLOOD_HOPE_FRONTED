@@ -1,0 +1,54 @@
+/* LoginForm.module.css */
+.loginContainer {
+  display: flex; /* Use flexbox for layout */
+  height: 100vh; /* Full height for full-screen view */
+}
+
+.imageSide {
+  flex: 1; /* Allow the image side to take up one part of the flex container */
+  background-image: url('http://refreshhealthcare.biz/Upload/fldBlog/Blood-donation-facebook-post.jpg?maxwidth=294&format=png&quality=80');
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the background image */
+  height: 100%; /* Adjust the height as needed */
+  max-height: 100vh; /* Set a maximum height for the image */
+  min-height: 300px; /* Optional: Set a minimum height for better visibility */
+}
+
+.formSide {
+  flex: 1; /* Allow the form side to take up one part of the flex container */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack form elements vertically */
+  justify-content: center; /* Center align vertically */
+  align-items: center; /* Center align items horizontally */
+  padding: 20px; /* Add some padding */
+  background-color:lightyellow; /* Optional: Add a background color for contrast */
+}
+
+.error {
+  color: red; /* Style for error messages */
+}
+
+button {
+  margin-top: 10px; /* Space above the button */
+}
+
+form {
+  width: 100%; /* Ensure form takes full width */
+  color: lightgrey;
+}
+
+input {
+  width: 100%; /* Inputs take full width */
+  padding: 10px; /* Add some padding */
+  margin: 10px 0; /* Add margin between inputs */
+}
+
+h2 {
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center align the heading */
+  width: 100%; /* Ensure full width for centering */
+}
+
+p {
+  text-align: right; /* Align paragraph text to the right */
+}

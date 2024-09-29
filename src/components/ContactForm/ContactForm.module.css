@@ -1,0 +1,41 @@
+.formContainer {
+    display: flex;
+    justify-content: center; /* Centers the form horizontally */
+    align-items: center; /* Centers the form vertically */
+    min-height: 100vh; /* Ensures the container takes full height */
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Full width of the container */
+    max-width: 500px; /* Set a max width for the form */
+    margin: 20px; /* Add some margin */
+    padding: 20px; /* Padding for form */
+    background-color: lightpink; /* Light background for form */
+    border: 1px solid #3cbaca; /* Border for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(104, 85, 50, 0.1); /* Shadow for depth */
+}
+
+.contactForm input,
+.contactForm textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #73d18f;
+    border-radius: 4px;
+    width: 100%; /* Ensure inputs take full width */
+}
+
+.contactForm button {
+    padding: 10px;
+    background-color: skyblue;/* Matching the theme */
+    color: rgb(24, 20, 219); /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.contactForm button:hover {
+    background-color: #c00000; /* Darker red on hover */
+}

@@ -1,0 +1,49 @@
+/* src/components/HomePage/HomePage.module.css */
+.homepage {
+    padding: 20px;
+}
+h2{
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chocolate;
+    font-family:serif;
+}
+.quotes {
+    margin-bottom: 20px;
+    color: blue;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 200px; /* Adjust size as needed */
+    margin-right: 20px; /* Spacing between images */
+}
+/* src/components/HomePage/HomePage.module.css */
+.homepage {
+    padding: 20px;
+    text-align: center; /* Center align text for the entire homepage */
+}
+
+.quotes {
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+}
+
+.images img {
+    height: 300px; /* Set a height for better visibility */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between images */
+    object-fit: cover; /* Ensures the images cover the area without stretching */
+}

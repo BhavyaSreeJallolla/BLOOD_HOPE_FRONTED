@@ -1,0 +1,71 @@
+.signupContainer {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+.imageSide {
+  flex: 1; /* Takes half of the available width */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  
+}
+
+.formSide {
+  flex: 1; /* Takes half of the available width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+  background-color:linen;
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.error {
+  color: red; /* Red color for error messages */
+  margin-bottom: 15px; /* Spacing below error messages */
+}
+
+form {
+  width: 100%; /* Full width of the form side */
+  max-width: 400px; /* Maximum width for the form */
+}
+
+form div {
+  margin-bottom: 15px; /* Spacing between form fields */
+  color:blueviolet;
+}
+
+label {
+  display: block; /* Make label a block element */
+  margin-bottom: 5px; /* Spacing below label */
+}
+
+input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Spacing inside input */
+  border: 1px solid #ec780b; /* Border style for input */
+  border-radius: 20px; /* Rounded corners */
+}
+
+button {
+  padding: 10px 20px; /* Spacing inside button */
+  background-color: #220ce2; /* Button color */
+  color: rgb(221, 20, 228); /* Text color */
+  border: none; /* No border */
+  border-radius: 25px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #31df0f; /* Darker shade on hover */
+}
+
+p {
+  text-align: center; /* Center text in paragraph */
+  color: #ec780b;
+}
