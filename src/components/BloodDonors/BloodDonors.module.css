@@ -1,35 +1,37 @@
-.blood-donors-container {
+/* NeedyPeople.module.css */
+
+/* Updated styles for NeedyPeople */
+.needyPeopleContainer {
   padding: 20px;
-  background-color: #f9f9f9; /* Light background for better visibility */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  max-width: 600px; /* Limit the width */
-  margin: 20px auto; /* Centering the container */
+  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(185, 19, 19, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 h2 {
   text-align: center;
-  color: #e01d1d; /* Header color */
+  color: #e01d1d;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-table {
+.table {
   width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+  border-collapse: collapse; /* Add this for consistent table styling */
 }
 
 thead th {
-  background-color: #e06f12; /* Header background color */
+  background-color: #e06f12;
   padding: 10px;
   text-align: left;
   font-weight: bold;
-  border-bottom: 2px solid #74152c; /* Bottom border for the header */
+  border-bottom: 2px solid #74152c;
 }
 
 tbody tr {
-  border-bottom: 1px solid #ccc; /* Light bottom border for rows */
+  border-bottom: 1px solid #0323b3;
 }
 
 tbody td {
@@ -38,14 +40,14 @@ tbody td {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #e0f7fa; /* Light blue for even rows */
+  background-color: #2fe47b98; /* Light green color for even rows */
 }
 
 tbody tr:hover {
-  background-color: #ffe0e0; /* Light red on hover for better visibility */
+  background-color: #a10606; /* Darker red color for hover effect */
 }
 
 tbody td:first-child {
   font-weight: bold;
-  color: #2c3e50; /* Darker color for the first column */
+  color: #2c3e50; /* Darker color for the first cell */
 }
