@@ -1,5 +1,5 @@
 import React from 'react';
-import './NeedyPeople.module.css'; 
+import styles from './NeedyPeople.module.css'; // Correctly importing the CSS module
 
 const needyPeopleData = [
   { id: 1, name: 'Alice Brown', bloodType: 'A+', contact: '111-222-3333' },
@@ -9,9 +9,9 @@ const needyPeopleData = [
 
 const NeedyPeople = () => {
   return (
-    <div className="needy-people-container">
+    <div className={styles.needyPeopleContainer}> {/* Apply the container style */}
       <h2>People in Need of Blood</h2>
-      <table>
+      <table className={styles.table}> {/* Optionally add a class for the table */}
         <thead>
           <tr>
             <th>Name</th>

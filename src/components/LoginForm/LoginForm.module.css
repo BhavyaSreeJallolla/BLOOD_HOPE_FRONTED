@@ -6,7 +6,7 @@
 
 .imageSide {
   flex: 1; /* Allow the image side to take up one part of the flex container */
-  background-image: url('http://refreshhealthcare.biz/Upload/fldBlog/Blood-donation-facebook-post.jpg?maxwidth=294&format=png&quality=80');
+  background-image: url('https://img.freepik.com/free-vector/world-blood-donor-day-heart-blood-drop-with-heartbeat-line-concept-poster_1017-38605.jpg?w=740&t=st=1727600578~exp=1727601178~hmac=1d85a71158f2150ed787c50f95603def9600345a84e78c8eed1fca402790fe49');
   background-size: cover; /* Cover the entire div */
   background-position: center; /* Center the background image */
   height: 100%; /* Adjust the height as needed */

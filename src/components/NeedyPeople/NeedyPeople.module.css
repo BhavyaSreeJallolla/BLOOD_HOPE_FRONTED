@@ -1,7 +1,7 @@
 /* NeedyPeople.module.css */
-/* Updated styles for NeedyPeople */
 
-.needy-people-container {
+/* Updated styles for NeedyPeople */
+.needyPeopleContainer {
   padding: 20px;
   background-color: palevioletred;
   border-radius: 10px;
@@ -17,9 +17,9 @@ h2 {
   margin-bottom: 20px;
 }
 
-table {
+.table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Add this for consistent table styling */
 }
 
 thead th {
@@ -40,14 +40,14 @@ tbody td {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #2fe47b98;
+  background-color: #2fe47b98; /* Light green color for even rows */
 }
 
 tbody tr:hover {
-  background-color: #a10606;
+  background-color: #a10606; /* Darker red color for hover effect */
 }
 
 tbody td:first-child {
   font-weight: bold;
-  color: #2c3e50;
+  color: #2c3e50; /* Darker color for the first cell */
 }
